@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="Design.css"/>
+</head>
+<body>
+    <div class="container">
+    <form>
+    <img src="ACT NEW.png" width="370px" alt="logo"/>
+    <h1>Registration Form</h1>
+    <p>
+        <label for ="FirstName">First Name:</label>
+        <input type="FirstName" id ="FirstName" placeholder="Input your first name"/>
+    </p>
+    <p>
+        <label for ="LastName">Last Name:</label>
+        <input type="LastName" id ="LastName" placeholder="Input your last name"/>
+    </p>
+    <p>
+        <label for ="Email">Email:</label>
+        <input type="Email" id ="Email" placeholder="Input your email"/>
+    </p>
+    <p>
+        <label for ="Password">Password:</label>
+        <input type="Password" id ="Password" placeholder="Input your password" required=""/>
+    </p>
+    <p>
+        <label for="Gender" name="Gender">Gender:</label>
+        <input type="radio" name="Gender" value="Male"><label for="Male">Male</label>
+        <input type="radio" name="Gender" value="Female"><label for="Male">Female</label>
+        <input type="radio" name="Gender" value="Others"><label for="Male">Others</label>
+    </p>
+    <p>
+        <label for="Birthday">Birthday: </label>
+        <input type="day" placeholder="Day"/>
+        <select id="months" name="months">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+        <input type="year" placeholder="Year"/>
+    </p>
+    <p>
+        <label for="PhoneNumber" >Phone Number: </label><input type="tel" name="PhoneNumber" placeholder="Input your phone number"/>
+    </p>
+    <p>
+        <label for="address">Address:</label><textarea name="comment" style="height: 120px; width: 534px;" placeholder="Enter your address"></textarea>
+    </p>
+    <p>
+        <label for="Contry">Country: </label>
+        <select id="country" name="country">
+            <option value="SELECT COUNTRY">SELECT COUNTRY</option>
+            <option value="USA">USA</option>
+            <option value="CHINA">CHINA</option>
+        </select>
+    </p>
+    <p>
+        <label>Subscribe:</label><br>
+        <input type="checkbox" name="Newsletter" value="Subscribe to newsletter">
+        <label for="Newsletter">Subscribe to newsletter</label><br>
+        <input type="checkbox" name="ProductUpdates" value="Recieve product updates">
+        <label for="ProductUpdates">Recieve product updates</label><br>
+        <input type="checkbox" name="SpecialOffer" value="Recieve special offer">
+        <label for="SpecialOffer">Recieve special offer</label>
+    </p>
+    <p>
+        <label>Terms and condition:</label><br>
+        <input type="checkbox" name="terms" value="By checking this box, I agree to the terms">
+        <label for="terms">By checking this box, I agree to the terms</label><br><br>
+        <button type="Register"><b>Register</b></button>
+        <button type="Reset"><b>Reset</b></button>
+    </p>
+    </div>
+</body>
+</form>
+</html>

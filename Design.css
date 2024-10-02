@@ -1,0 +1,122 @@
+body{
+    background-image: linear-gradient(rgb(23, 133, 223),rgb(25, 33, 150));
+    height: 1513px;
+}
+
+.container{
+    position: relative;
+    top:35px;
+    background-color: azure;
+   height: 1370px;
+    padding: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+textarea{
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+form img{
+margin-left: 67px;
+}
+form{
+    margin-left: -20px;
+}
+form p {
+display: block;
+font-size: 21px;
+}
+
+input[type="Firstname"],input[type="Lastname"],input[type="Email"],input[type="Password"],input[type="tel"]{
+    padding: 10px;
+    width: 100%;
+    border: 2px solid;
+    border-color: aquamarine;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+input[type="Firstname"]:focus,input[type="Lastname"]:focus,input[type="Email"]:focus,input[type="Password"]:focus,input[type="tel"]:focus{
+    padding: 10px;
+    width: 98%;
+    border: 2px solid; 
+ 
+}
+
+textarea{
+    border: 2px solid;
+    border-color: aquamarine;   
+    transition: 0.2s;
+}
+textarea:focus{
+    border: 2px solid;
+  
+}
+
+select[id=country]{
+    width: 33%;
+    padding: 10px;
+    border: 2px solid;
+    display: inline-block;
+    border-radius: 20px;
+    border-color: aquamarine;
+    transition: 0.2s;
+}
+select[id=country]:focus{
+    border: 2px solid; 
+    padding: 10px;
+    width: 33%;
+}
+input[type="day"],input[type="year"],select[id=months]{
+    width: 24%;
+    padding: 10px;
+    border: 2px solid;
+    display: inline-block;
+    border-radius: 20px;
+    border-color: aquamarine;
+    transition: 0.2s;
+}
+
+input[type="day"]:focus,input[type="year"]:focus,select[id=months]:focus{
+    border: 2px solid; 
+    padding: 10px;
+    width: 22%;   
+}
+
+
+
+button{
+    padding: 15px;
+    width: 540px;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    margin-top: 13px;
+}
+
+button[type="Register"]{
+    background-color:rgba(0, 128, 0, 0.616);
+    font-size: 17px;
+}
+button[type="Reset"]{
+    background-color: rgba(201, 27, 27, 0.616);
+    font-size: 17px;
+
+}
+
+button[type="Register"]:hover{
+    background-color:rgba(7, 240, 7, 0.616);
+    font-size: 17px;
+}
+
+button[type="Reset"]:hover{
+    background-color: rgba(255, 0, 0, 0.616);
+    font-size: 17px;
+
+}
